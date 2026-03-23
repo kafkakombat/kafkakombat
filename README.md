@@ -34,6 +34,25 @@ Current stable server distribution:
 - [Release Notes and Publishing Model](docs/RELEASES.md)
 - [Security Policy](SECURITY.md)
 
+## Screenshots
+
+### Light theme
+
+![Dashboard](docs/img/screen-dashboard-light.png)
+
+![Topics](docs/img/screen-topics-light.png)
+
+![Administration](docs/img/screen-admin-light.png)
+
+### Dark theme
+
+![Dashboard dark](docs/img/screen-dashboard-dark.png)
+
+![Topics dark](docs/img/screen-topics-dark.png)
+
+![Problems dark](docs/img/screen-problems-dark.png)
+
+
 ## Scope of this repository
 
 This repository is intended to provide a clean public project entry point until the source publication stage.
