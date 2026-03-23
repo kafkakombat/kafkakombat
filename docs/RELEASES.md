@@ -4,7 +4,7 @@
 
 KafkaKombat release artifacts are published through the project website:
 
-- https://kafkakombat.com/releases.php
+- https://kafkakombat.com/releases
 
 This keeps the primary download flow stable even if repository structure evolves.
 

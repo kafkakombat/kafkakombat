@@ -23,7 +23,7 @@ KafkaKombat is intended for environments where Kerberos is a mandatory part of t
 Public release artifacts are published through the project website and can also be mirrored through GitHub Releases.
 
 Primary release page:
-- https://kafkakombat.com/releases.php
+- https://kafkakombat.com/releases
 
 Current stable server distribution:
 - `kafkakombat-1.3.tar.gz`
