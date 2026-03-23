@@ -1,5 +1,8 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: Security issue reporting
-    url: https://github.com/OWNER/REPO/security/advisories/new
+    url: https://github.com/kafkakombat/kafkakombat/security/advisories/new
     about: Please report security vulnerabilities privately.
+  - name: Project website contact
+    url: https://kafkakombat.com/contact
+    about: Please use the website contact page for general project questions.
