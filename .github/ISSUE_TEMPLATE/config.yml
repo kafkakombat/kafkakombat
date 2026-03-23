@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Security issue reporting
     url: https://github.com/kafkakombat/kafkakombat/security/advisories/new
-    about: Please report security vulnerabilities privately.
-  - name: Project website contact
-    url: https://kafkakombat.com/contact
-    about: Please use the website contact page for general project questions.
+    about: Report security vulnerabilities privately.
+  - name: Project website
+    url: https://kafkakombat.com/
+    about: Project overview, release information, and public contact channel.
