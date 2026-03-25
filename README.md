@@ -12,6 +12,17 @@ Current public release line: **v1.3**
 
 KafkaKombat is intended for environments where Kerberos is a mandatory part of the Kafka access model. It is not presented as a generic Kafka UI for simplified standalone deployments without Kerberos.
 
+Production status:
+- used in development and production environments
+- used by multiple internal teams
+- intended for multi-cluster Kafka environments with corporate security requirements
+
+Kerberos and Kafka client model:
+- Kerberos authentication is used through SASL/GSSAPI
+- user-driven Kafka operations from the UI are executed in the Kerberos context of the user
+- the product is designed around the user's own Kerberos ticket rather than a shared service identity for normal UI operations
+- service principal and keytab are reserved for background and backend tasks
+
 Supported Apache Kafka versions:
 - tested with Apache Kafka 3.0.0 through 4.2.0
 - if support for other Kafka versions is required, please open an issue at https://github.com/kafkakombat/kafkakombat/issues or use the contact form on the project website
@@ -75,9 +86,11 @@ It is not yet intended to be the full development repository.
 
 KafkaKombat follows a Kerberos-first model:
 - Kerberos is the authentication base
+- Kerberos Kafka access is based on SASL/GSSAPI
 - LDAP/directory lookup is used for user lookup and group resolution
 - application access is additionally restricted by RBAC
 - user Kafka operations from the UI are executed in the Kerberos context of the user
+- the central operational model is user-ticket execution for UI-driven Kafka requests
 
 ## License
 
