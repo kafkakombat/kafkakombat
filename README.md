@@ -4,7 +4,7 @@ KafkaKombat is a Kerberos-first web UI for Apache Kafka.
 
 This repository currently publishes project information, licensing files, installation guidance, and release references. Source code is **not published in this repository at this time**. Source code publication and the move to Open Source are planned starting with version 2.2
 
-This GitHub repository is the public project entry point, and the website is the primary public release channel.
+GitHub repo is a public project entry point and the website is the primary public release channel
 
 ## Project status
 
@@ -24,7 +24,7 @@ Kerberos and Kafka client model:
 - service principal and keytab are reserved for background and backend tasks
 
 Supported Apache Kafka versions:
-- tested with Apache Kafka 3.0.0 through 4.2.0
+- tested with Apache Kafka 3.0.0 through 3.9.1
 - if support for other Kafka versions is required, please open an issue at https://github.com/kafkakombat/kafkakombat/issues or use the contact form on the project website
 
 ## What is published here
@@ -45,6 +45,22 @@ Primary release page:
 Current stable server distribution:
 - `kafkakombat-1.3.tar.gz`
 
+
+## Companion utility: Kafka Cluster Testing
+
+Kafka Cluster Testing is a standalone companion utility for validating Kafka cluster readiness before day-to-day work in KafkaKombat.
+
+Typical flow:
+1. validate Kafka connectivity, Kerberos access, topic lifecycle, and produce/consume path with Kafka Cluster Testing
+2. operate the cluster through KafkaKombat for ongoing administration, message browsing, lag analysis, and controlled administrative flows
+
+Project page:
+- https://kafkakombat.com/kafka-cluster-testing
+
+GitHub repository:
+- https://github.com/kafkakombat/kafka-cluster-testing
+
+
 ## Documentation
 
 - [Installation Guide](docs/INSTALL.md)
@@ -55,8 +71,6 @@ Current stable server distribution:
 
 ### Light theme
 
-![Dashboard](docs/img/screen-main-light.png)
-
 ![Dashboard](docs/img/screen-dashboard-light.png)
 
 ![Topics](docs/img/screen-topics-light.png)
@@ -64,8 +78,6 @@ Current stable server distribution:
 ![Administration](docs/img/screen-admin-light.png)
 
 ### Dark theme
-
-![Dashboard dark](docs/img/screen-main-dark.png)
 
 ![Dashboard dark](docs/img/screen-dashboard-dark.png)
 
