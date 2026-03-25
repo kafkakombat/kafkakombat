@@ -55,6 +55,8 @@ Current stable server distribution:
 
 ### Light theme
 
+![Dashboard](docs/img/screen-main-light.png)
+
 ![Dashboard](docs/img/screen-dashboard-light.png)
 
 ![Topics](docs/img/screen-topics-light.png)
@@ -62,6 +64,8 @@ Current stable server distribution:
 ![Administration](docs/img/screen-admin-light.png)
 
 ### Dark theme
+
+![Dashboard dark](docs/img/screen-main-dark.png)
 
 ![Dashboard dark](docs/img/screen-dashboard-dark.png)
 
