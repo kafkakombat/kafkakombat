@@ -13,7 +13,7 @@ Current public release line: **v1.3**
 KafkaKombat is intended for environments where Kerberos is a mandatory part of the Kafka access model. It is not presented as a generic Kafka UI for simplified standalone deployments without Kerberos.
 
 Supported Apache Kafka versions:
-- tested with Apache Kafka 3.0.0 through 3.9.1
+- tested with Apache Kafka 3.0.0 through 4.2.0
 - if support for other Kafka versions is required, please open an issue at https://github.com/kafkakombat/kafkakombat/issues or use the contact form on the project website
 
 ## What is published here
