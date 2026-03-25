@@ -4,7 +4,7 @@ KafkaKombat is a Kerberos-first web UI for Apache Kafka.
 
 This repository currently publishes project information, licensing files, installation guidance, and release references. Source code is **not published in this repository at this time**. Source code publication and the move to Open Source are planned starting with version 2.2
 
-GitHub repo is a public project entry point and the website is the primary public release channel
+This GitHub repository is the public project entry point, and the website is the primary public release channel.
 
 ## Project status
 
